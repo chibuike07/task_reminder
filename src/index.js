@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import RoutesPages from "./Components/router";
-import Form from "./practiceTodo/Todo";
+import Form from "./Components/Todo";
 import * as serviceWorker from "./serviceWorker";
 
 // let todoItems = [
