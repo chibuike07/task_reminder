@@ -1,11 +1,11 @@
 import React from "react";
-const Lists = props => {
+const Lists = ({ todoitem, removeItem }) => {
   // console.log(props.todoitem);
   return (
     <div>
       <li>
-        {props.todoitem.task} {props.todoitem.time}
-        <button onClick={() => props.removeItem(props.todoitem)}>X</button>
+        {todoitem.days} {todoitem.task} {todoitem.timeTaker}
+        <button onClick={() => removeItem(todoitem)}>X</button>
       </li>
     </div>
   );

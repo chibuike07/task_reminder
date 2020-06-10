@@ -1,7 +1,7 @@
 export const timeTo12HrFormat = time => {
   // Take a time in 24 hour format and format it in 12 hour format
-  var time_part_array = time.split(":");
-  var ampm = "AM";
+  let time_part_array = time.split(":");
+  let ampm = "AM";
 
   if (time_part_array[0] >= 12) {
     ampm = "PM";
@@ -20,9 +20,4 @@ export const timeTo12HrFormat = time => {
     " " +
     ampm;
   return formatted_time;
-  // return formatted_time;
 };
-
-// console.log(time);  // 6:00:00 PM
-
-// var time = timeTo12HrFormat(18:00:00);
